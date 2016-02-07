@@ -1,6 +1,6 @@
 {
   "name": "hzoo-npm-publish",
-  "version": "1.0.0",
+  "version": "1.0.1-0",
   "description": "Testing npm publish",
   "main": "index.js",
   "scripts": {
