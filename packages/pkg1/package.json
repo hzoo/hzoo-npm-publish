@@ -1,9 +1,8 @@
 {
   "name": "hzoo-npm-pkg1",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "repository": "https://github.com/hzoo/hzoo-npm-publish/tree/master/packages/pkg1",
   "license": "MIT",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
