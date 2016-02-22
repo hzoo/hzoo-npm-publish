@@ -17,3 +17,5 @@ deploy:
     branch: master
 after_deploy:
   - "echo 'Deploying...'"
+  - "echo 'Skipping deploys with ...'"
+  - "./node_modules/.bin/lerna publish --canary"
