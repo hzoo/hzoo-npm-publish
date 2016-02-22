@@ -1,4 +1,3 @@
----
 git:
   depth: 1
 sudo: false
@@ -6,8 +5,11 @@ language: node_js
 cache:
   directories:
   - node_modules
-
 node_js:
- - "5"
-
+- '5'
 script: npm run ci
+deploy:
+  api_key:
+    secure: o5tJpBd2FD5L4rYfQTmJrmKtgzgdgx/tOELMN/tZhbCp2vLribUorAcgv2EmZa/bQKkRJ8q+fMJWLqbsgGDgxy9QQ0sixh1FZgXWhhvMv1afzxkVIuGUKZ9lrhzAe4yRmIv835m/CZ9BEEY51TIPn+Ggz4rphWE60GVkUboxbO30rFduz345+6jvfmy+s7TWkjOscG1IlLmiEoDNjuKkq6RjSM8oRyabMprvLKqLvnerSxwPeTAeP8y2zl54HC55usWLbMsdTj4IaxQAI+us5kQ8zK/M9VwhaUe1PJXQh1NxCxENzv/5gDFhlxFYk2u5XJ5D1ag8SjjdsSfTfxzY+af4S+DZQdzYuQ2b369iKrAwe+g9wlcHgi3zps3oD+CCyLhjy0t/LoTTNGkruKylLuX3hU8a6vx7+/P7uXtCATSmtg5sokjIfWs5yy+/ROuzSSHLhnZKOohWrOt2GeDtLbk+0S/W55WnVaYORJ88/2YCT1o3u5B41EoG0SZbCFtM3hbMwNO/pYA6YMZ4vXI7KWmFLtMZjCl85UBHO81dSuHEuOb6rxSCn/p4k/dQbVJqzlYjr5eVcGMmJUpDE4pOi6tAQOJcqC0E/b5kfJXe8D1TFBn+41XhV4lyNlAF5Z0Cc3ZvDi0tgCfil3CmHNNa+OxHHMrkdLHXDZ0/0F4h+Uk=
+  on:
+    branch: master
