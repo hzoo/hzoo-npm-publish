@@ -6,10 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "help": "./node_modules/.bin/lerna help",
-    "view": "npm view hzoo-npm-publish"
+    "view": "npm view hzoo-npm-publish",
+    "lint": "./node_modules/.bin/kcheck",
+    "ci": "npm run lint"
   },
   "devDependencies": {
-    "lerna": "kittens/lerna#91a22ecb5"
+    "kcheck": "^1.0.7",
+    "lerna": "kittens/lerna"
   },
   "author": "",
   "license": "ISC"
