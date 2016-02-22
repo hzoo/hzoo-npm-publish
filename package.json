@@ -1,8 +1,6 @@
 {
-  "name": "hzoo-npm-publish",
-  "version": "1.1.0",
+  "private": true,
   "description": "Testing npm publish and lerna",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "help": "./node_modules/.bin/lerna help",
@@ -15,6 +13,5 @@
     "kcheck": "^1.0.7",
     "lerna": "kittens/lerna"
   },
-  "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }
