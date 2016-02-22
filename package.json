@@ -8,7 +8,8 @@
     "help": "./node_modules/.bin/lerna help",
     "view": "npm view hzoo-npm-publish",
     "lint": "./node_modules/.bin/kcheck",
-    "ci": "npm run lint"
+    "ci": "npm run lint",
+    "publish": "./node_modules/.bin/lerna publish"
   },
   "devDependencies": {
     "kcheck": "^1.0.7",
