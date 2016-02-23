@@ -4,5 +4,7 @@
   "description": "",
   "repository": "https://github.com/hzoo/hzoo-npm-publish/tree/master/packages/pkg2",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "hzoo-npm-pkg1": "^1.1.1"
+  }
 }
