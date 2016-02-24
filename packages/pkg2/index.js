@@ -1,4 +1,4 @@
 const c = 1;
 c;
 
-console.log('pkg2!');
+console.log('pkg2!!');
