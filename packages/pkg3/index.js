@@ -1,4 +1,4 @@
 const d = 3;
 d;
 
-console.log('pkg3!');
+console.log('pkg3!!');
