@@ -10,7 +10,7 @@
     "publish": "./node_modules/.bin/lerna publish"
   },
   "devDependencies": {
-    "kcheck": "^1.0.7",
+    "kcheck": "^2.0.0",
     "lerna": "hzoo/lerna#publish-dev"
   },
   "license": "MIT"
