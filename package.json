@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "kcheck": "^2.0.0",
-    "lerna": "hzoo/lerna#publish-dev"
+    "lerna": "^v2.0.0-beta.11"
   },
   "license": "MIT"
 }
