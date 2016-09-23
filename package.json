@@ -1,13 +1,17 @@
 {
-  "private": true,
+  "name": "hzoo-npm-publish",
+  "version": "1.1.4",
   "description": "Testing npm publish and lerna",
+  "files": [
+    "lerna.json"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "help": "./node_modules/.bin/lerna help",
     "view": "npm view hzoo-npm-publish",
     "lint": "./node_modules/.bin/kcheck",
     "ci": "npm run lint",
-    "publish": "./node_modules/.bin/lerna publish"
+    "release": "./node_modules/.bin/lerna publish"
   },
   "devDependencies": {
     "kcheck": "^2.0.0",
